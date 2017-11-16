@@ -5,7 +5,7 @@
  */
 
 module.exports = robot => {
-  robot.on('pull_request.created', commentOnPr);
+  robot.on('pull_request.opened', commentOnPr);
   robot.on('pull_request.synchronize', commentOnPr);
   robot.on('pull_request.labeled', commentOnPr);
 
