@@ -1,13 +1,15 @@
 {
   "name": "probot-app-release-pr-compare",
   "version": "1.0.1",
-  "description": "GitHub App that comments on release PRs with compare url of changes",
+  "description":
+    "GitHub App that comments on release PRs with compare url of changes",
   "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
   "contributors": [],
   "repository": "uber-workflow/probot-app-release-pr-compare",
   "scripts": {
     "start": "probot run ./index.js",
     "test": "npm run lint && jest",
+    "jest": "jest",
     "lint": "eslint .",
     "fix": "eslint . --fix"
   },
