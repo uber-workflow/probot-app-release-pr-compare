@@ -1,0 +1,7 @@
+version: '2'
+services:
+  probot-app-release-pr-compare:
+    build: .
+    volumes:
+      - .:/probot-app-release-pr-compare
+      - /probot-app-release-pr-compare/node_modules/
