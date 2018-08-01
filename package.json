@@ -1,8 +1,7 @@
 {
   "name": "probot-app-release-pr-compare",
   "version": "1.0.1",
-  "description":
-    "GitHub App that comments on release PRs with compare url of changes",
+  "description": "GitHub App that comments on release PRs with compare url of changes",
   "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
   "contributors": [],
   "repository": "uber-workflow/probot-app-release-pr-compare",
@@ -25,6 +24,9 @@
   },
   "engines": {
     "node": ">= 8.6.0"
+  },
+  "jest": {
+    "testURL": "http://localhost:3000/"
   },
   "license": "MIT"
 }
